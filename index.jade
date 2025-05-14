@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Johanna Kivimägi
+    link(rel="stylesheet", href="style.css")
+    link(rel="shortcut icon", type="image/x-icon", href="favicon.ico")
+  body(onclick="")
+    .preloader(style="background:white;left:0;top:0;right:0;bottom:0;position:absolute")
+    
+    include jade/_home.jade 
+    include jade/_header.jade
+    include jade/_bio.jade
+    include jade/_player.jade
+    include jade/_multimedia.jade
+    include jade/_performances.jade
+    include jade/_contact.jade
+    include jade/_footer.jade
+    
+    script(src="script/jquery-3.2.1.min.js")
+    script(src="script/script-min.js")

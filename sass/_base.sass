@@ -1,0 +1,43 @@
+body,html
+  margin: 0
+  padding: 0
+  display: flex
+  height: 100%
+  width: 100%
+  justify-content: center
+  align-items: center
+  user-select: none
+  -webkit-tap-highlight-color: transparent
+  overflow: hidden
+  position: relative
+
+body
+  position: relative
+  // margin-top: 160px
+
+/* Preloader */
+.preloader
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+  /* change if the mask should have another color then white */
+	background-color: #fff
+  /* makes sure it stays on top */
+	z-index: 99
+
+.status
+	width: 200px
+	height: 200px
+	position: absolute
+    /* centers the loading animation horizontally one the screen */
+	left: 50%
+  /* centers the loading animation vertically one the screen */
+	top: 50%
+  /* path to your loading animation */
+	background-image: url("img/preload1.gif")
+	background-repeat: no-repeat
+	background-position: center
+    /* is width and height divided by two */
+	margin: -100px 0 0 -100px

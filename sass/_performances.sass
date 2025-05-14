@@ -1,0 +1,81 @@
+.performances-main
+  width: 100%
+  height: 100%
+  overflow-y: scroll
+  position: absolute
+  display: flex
+  left: 0
+  height: calc(100% - 120px)
+  bottom: 0
+  right: 0
+  flex-direction: column
+  justify-content: flex-start
+  align-items: flex-start
+  align-items: center
+  font-family: 'Montserrat', sans-serif
+  color: white
+  padding-right: 20px
+  .performances-heading
+    text-align: center
+    width: calc(100% + 40px)
+    background: rgba(255,255,255,0.15)
+    margin: 0
+  .past
+    margin-top: 40px
+    margin-top: 20px
+  .events-body
+    user-select: text
+    width: calc(100% + 20px)
+    // border-radius: 5px
+    border-radius: 5px
+    // margin-bottom: 3px
+    margin-top: 20px
+    // margin-top: 10px
+    text-align: justify
+    font-family: 'Lato', sans-serif
+    background:  rgba(20,20,20,0.35)
+    // background:  blue
+    // width: 60%
+    width: 1000px
+    .events-body-main
+      p
+        margin-top: 2px
+        margin-bottom: 2px
+
+    &:last-child
+      margin-bottom: 50px
+    .events-body-main
+      display: flex
+      width: 100%
+      // background:  rgba(20,20,20,0.35)
+      border-radius: 55px
+      justify-content: space-around
+      align-items: center
+      // padding: 15px 0 15px 0
+      padding: 5px 0 15px 0
+      div
+        width: 33%
+        text-align: center
+      a
+        cursor: pointer
+      a:link, a:visited, a:active
+        color: white
+        text-decoration: none
+
+    .events-body-extra
+      // background:  rgba(20,20,20,0.35)
+      color: rgba(250, 250, 250, 0.55)
+      text-align: center
+      p
+        margin: 0
+        &:last-child
+          padding-bottom: 15px
+      .source
+        height: 26px
+        width: 26px
+        max-height: 26px
+        max-width: 26px
+        margin: auto calc(50% - 13px)
+        margin-top: 10px
+        background: url('img/info-icon_white.png') center no-repeat
+        background-size: contain

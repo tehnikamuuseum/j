@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Johanna Kivimägi</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  </head>
+  <body onclick="">
+    <div class="preloader" style="background:white;left:0;top:0;right:0;bottom:0;position:absolute"></div>
+    <div class="home-main tab-visible" onclick="">
+      <div class="home-video">
+        <div class="video-placeholder"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Darkness.mp4" type="video/mp4"/>
+          <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Darkness.webm" type="video/webm"/>
+          <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Darkness.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;"/>
+        </video>
+      </div>
+    </div>
+    <div class="header" onclick="">
+      <div class="left-author">
+        <h1>Johanna Kivimägi</h1>
+        <div class="sub-author">
+          <h3>composer</h3>
+        </div>
+      </div>
+      <div class="header-nav">
+        <div class="home-btn">
+          <h3>Home</h3>
+          <h3 class="ghost-nav">Home</h3>
+        </div>
+        <div class="bio-btn" onclick="">
+          <h3>Bio</h3>
+          <h3 class="ghost-nav">Bio</h3>
+        </div>
+        <div class="audio-btn" onclick="">
+          <h3>Audio</h3>
+          <h3 class="ghost-nav">Audio</h3>
+        </div>
+        <div class="multimedia-btn">
+          <h3>Multimedia</h3>
+          <h3 class="ghost-nav">Multimedia</h3>
+        </div>
+        <div class="performances-btn">
+          <h3>Performances</h3>
+          <h3 class="ghost-nav">Performances</h3>
+        </div>
+        <div class="contact-btn">
+          <h3>Contact</h3>
+          <h3 class="ghost-nav">Contact</h3>
+        </div>
+      </div>
+    </div>
+    <div class="header-overlay-buttons menu-hidden">
+      <div class="mobile-home-btn">
+        <h3>Home</h3>
+      </div>
+      <div class="mobile-bio-btn">
+        <h3>Bio</h3>
+      </div>
+      <div class="mobile-audio-btn">
+        <h3>Audio</h3>
+      </div>
+      <div class="mobile-multimedia-btn">
+        <h3>Multimedia</h3>
+      </div>
+      <div class="mobile-performances-btn">
+        <h3>Performances</h3>
+      </div>
+      <div class="mobile-contact-btn">
+        <h3>Contact</h3>
+      </div>
+    </div>
+    <div class="header-ham-wrap ham-closed">
+      <div class="header-ham-line" id="one"></div>
+      <div class="header-ham-line" id="two"></div>
+      <div class="header-ham-line" id="three"></div>
+    </div>
+    <div class="bio-main tab-hidden" onclick="">
+      <div class="bio-wrapper-outer">
+        <div class="bio-wrapper-inner">
+          <div class="bio-img"></div>
+          <div class="bio-text">
+            <p>
+              Johanna Kivimägi (1992) started her composition studies in 2011 at the Estonian Academy of Music and Theatre with 
+              Tõnu Kõrvits and Galina Grigorjeva and recieved her Masters degree in 2018 in electroacoustic composition studying 
+              with Malle Maltis. In 2013 she studied at the Iceland Arts Academy with Anna Thorvaldsdottir. After graduation, Kivimägi 
+              spent a year doing internships with composers Kent Olofsson in Malmö, Sweden and Pall Ragnar Pallson in Reykjavik, Iceland. 
+              In 2017 she participated in “Nord & Mix” workshop on spatial soundsphere (ambisonics) at the Lithuatian Academy of Music and Theatre
+              and in 2019 in “SoundMine” course for composition and live electronics in Bilzen under the guidance of Wim Henderickx, 
+              Jorrit Tamminga and Diederik Glorieux.<br/><br/>Kivimägi has written works for choirs, ensembles, solo instruments, symphony orchestra and electroacoustic and electronic 
+              pieces. She has made music for dance performances and videos. Her music has been performed at festivals "Estonian Music Days", 
+              "Autumn Festival of Estonian Academy of Music and Theatre", “Treffpunkt", “TaHe" and "Old Town Music Days" in Estonia, 
+              “InZonic 2017: Immersive Future” in ZKM, Karlsruhe, "New York City Electroacoustic Music Festival 2018" in New York, 
+              "Gaudeamus Muziekweek" and "Cultura Nova" in Netherlands. Her music has been part of exhibitions in Tallinn, 
+              London, Reykjavik, Paris, Rome, Venice and Vienna. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="players-wrapper-main tab-hidden" onclick="">
+      <div class="players-heading">
+        <p>Instruments / voice and electronics</p>
+      </div>
+      <div class="player-section" id="muutuda-et-jaada-samaks">
+        <div class="player-main">
+          <div class="audio-wrapper play-btn-loading">
+            <div class="play-button"></div>
+            <div class="pause-button"></div>
+            <div class="loader"></div>
+            <audio>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/ArsenaleStereo(14_05_18_3).wav" type="audio/wav" preload="metadata"/>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/ArsenaleStereo(14_05_18_3).mp3" type="audio/mpeg" preload="metadata"/>
+            </audio>
+          </div>
+          <div class="info-section">
+            <div class="info-name">
+              <p id="info-title">Muutuda, et jääda samaks</p>
+              <p id="info-author">Johanna Kivimägi</p>
+            </div>
+            <div class="info-time"></div>
+          </div>
+          <div class="distance-indicator"></div>
+          <div class="buffer-indicator"></div>
+        </div>
+        <div class="player-text">
+          <p>
+            Muutuda, et jääda samaks (2018) for soprano, alto saxophone, electric guitar, 
+            accordion, piano and electronics (originally quadrophonic setting). Performed by 
+            Ensemble Arsenale in Estonian Music Days concert "Elusate helide maja" in 2018. ​
+          </p>
+        </div>
+      </div>
+      <div class="player-section" id="reflection">
+        <div class="player-main">
+          <div class="audio-wrapper play-btn-loading">
+            <div class="play-button"></div>
+            <div class="pause-button"></div>
+            <div class="loader"></div>
+            <audio>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Reflection+(12.09.3).wav" type="audio/wav" preload="metadata"/>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Reflection+(12.09.3).mp3" type="audio/mpeg" preload="metadata"/>
+            </audio>
+          </div>
+          <div class="info-section">
+            <div class="info-name">
+              <p id="info-title">Reflection</p>
+              <p id="info-author">Johanna Kivimägi</p>
+            </div>
+            <div class="info-time"></div>
+          </div>
+          <div class="distance-indicator"></div>
+          <div class="buffer-indicator"></div>
+        </div>
+        <div class="player-text">
+          <p>
+            Reflection (2017) is a piece for flute, electronics (5.1 speaker setting) and video. Video is 
+            made by Valentin Siltsenko. It is originally written to perform with live flute, 
+            electronics (first version was in stereo) and interactive video. There is also 
+            an installation version where all the media is fixed (it was made for inSonic2017 festival that took 
+            place in december 2017 at ZKM in Karlsruhe). The electronic part is made out of prerecorded flute 
+            sounds of the same material as the flute part. <br/> 
+            Premiere 11.01.2017 in Tallinn, Sõprus cinema, performed by Gianni Trovalusci (flute). Recorded 9.04.2017 in Tallinn.<br/><br/>
+            Flute - Gianni Trovalusci<br/>
+            Flute on electronics - Tarmo Johannes
+          </p>
+        </div>
+      </div>
+      <div class="players-heading">
+        <p>Electroacoustic and electronic</p>
+      </div>
+      <div class="player-section" id="hobohono">
+        <div class="player-main">
+          <div class="audio-wrapper play-btn-loading">
+            <div class="play-button"></div>
+            <div class="pause-button"></div>
+            <div class="loader"></div>
+            <audio>
+              <source src="https://j-bucket0092.s3.eu-west-2.amazonaws.com/j/HobohonoStereo.wav" type="audio/wav" preload="metadata"/>
+              <source src="https://j-bucket0092.s3.eu-west-2.amazonaws.com/j/HobohonoStereo.mp3" type="audio/mpeg" preload="metadata"/>
+            </audio>
+          </div>
+          <div class="info-section">
+            <div class="info-name">
+              <p id="info-title">Hõbõhõnõ</p>
+              <p id="info-author">Johanna Kivimägi</p>
+            </div>
+            <div class="info-time"></div>
+          </div>
+          <div class="distance-indicator"></div>
+          <div class="buffer-indicator"></div>
+        </div>
+        <div class="player-text">
+          <p>
+            Hõbõhõnõ (2019) is an electroacoustic piece written for HELI&KEEL concert series. 
+            The word "Hõbõhõnõ" means "silver" in seto language. 
+          </p>
+        </div>
+      </div>
+      <div class="player-section" id="falling-indefinitely-pt-3">
+        <div class="player-main">
+          <div class="audio-wrapper play-btn-loading">
+            <div class="play-button"></div>
+            <div class="pause-button"></div>
+            <div class="loader"></div>
+            <audio>
+              <source src="https://j-bucket0092.s3.eu-west-2.amazonaws.com/j/Falling_Indefinitely.wav" type="audio/wav" preload="metadata"/>
+              <source src="https://j-bucket0092.s3.eu-west-2.amazonaws.com/j/Falling_Indefinitely.mp3" type="audio/mpeg" preload="metadata"/>
+            </audio>
+          </div>
+          <div class="info-section">
+            <div class="info-name">
+              <p id="info-title">Falling Indefinitely pt. 3</p>
+              <p id="info-author">Johanna Kivimägi</p>
+            </div>
+            <div class="info-time"></div>
+          </div>
+          <div class="distance-indicator"></div>
+          <div class="buffer-indicator"></div>
+        </div>
+        <div class="player-text">
+          <p>
+            Falling Indefinitely (2019) is part of a project with vocal ensemble "Sinilind" where gregorian 
+            chant and electroacoustic music were mixed together in one program. This electronic part is 
+            subtly melting into and taking over a canon sung a capella.
+          </p>
+        </div>
+      </div>
+      <div class="player-section" id="radiance">
+        <div class="player-main">
+          <div class="audio-wrapper play-btn-loading">
+            <div class="play-button"></div>
+            <div class="pause-button"></div>
+            <div class="loader"></div>
+            <audio>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/RadianceStereo17.9.18.wav" type="audio/wav" preload="metadata"/>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/RadianceStereo17.9.18.mp3" type="audio/mpeg" preload="metadata"/>
+            </audio>
+          </div>
+          <div class="info-section">
+            <div class="info-name">
+              <p id="info-title">Radiance</p>
+              <p id="info-author">Johanna Kivimägi</p>
+            </div>
+            <div class="info-time"></div>
+          </div>
+          <div class="distance-indicator"></div>
+          <div class="buffer-indicator"></div>
+        </div>
+        <div class="player-text">
+          <p>
+            Radiance (2018) is electronic piece that is originally made for four speakers.
+            The piece was premiered on 21.10.2018 in Helios cinema in Tallinn
+          </p>
+        </div>
+      </div>
+      <div class="players-heading">
+        <p>Acoustic</p>
+      </div>
+      <div class="player-section" id="sara">
+        <div class="player-main">
+          <div class="audio-wrapper play-btn-loading">
+            <div class="play-button"></div>
+            <div class="pause-button"></div>
+            <div class="loader"></div>
+            <audio>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/S%C3%A4ra(J.Kivim%C3%A4gi).wav" type="audio/wav" preload="metadata"/>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/S%C3%A4ra(J.Kivim%C3%A4gi).mp3" type="audio/mpeg" preload="metadata"/>
+            </audio>
+          </div>
+          <div class="info-section">
+            <div class="info-waveform" id="s2ra"></div>
+            <div class="info-name">
+              <p id="info-title">Sära</p>
+              <p id="info-author">Johanna Kivimägi</p>
+            </div>
+            <div class="info-time"></div>
+          </div>
+          <div class="distance-indicator"></div>
+          <div class="buffer-indicator"></div>
+        </div>
+        <div class="player-text">
+          <p>
+            Sära (2017) is a piece for big ensemble, performed by Sinfonietta, conductor Toomas Vavilov. 
+            Premiere 7.04.2017 in Tallinn, Estonian Music Days. This is a recording of the premiere.
+          </p>
+        </div>
+      </div>
+      <div class="player-section" id="aria">
+        <div class="player-main">
+          <div class="audio-wrapper play-btn-loading">
+            <div class="play-button"></div>
+            <div class="pause-button"></div>
+            <div class="loader"></div>
+            <audio>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Aria(_The+Chairman_.wav" type="audio/wav" preload="metadata"/>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Aria(_The+Chairman_.mp3" type="audio/mpeg" preload="metadata"/>
+            </audio>
+          </div>
+          <div class="info-section">
+            <div class="info-name">
+              <p id="info-title">Aria</p>
+              <p id="info-author">Johanna Kivimägi</p>
+            </div>
+            <div class="info-time"></div>
+          </div>
+          <div class="distance-indicator"></div>
+          <div class="buffer-indicator"></div>
+        </div>
+        <div class="player-text">
+          <p>
+            Aria (2014) for tenor, horn and piano is written for Jaanus Samma's work "NSFW". 
+            A CHAIRMAN’S TALE” and is part of the exhibition.<br/><br/>
+            Tenor - Valter Soosalu<br/>
+            Horn - Rait Erikson<br/>
+            Piano - Johanna Kivimägi<br/>
+            Lyrics - Maarja Kangro
+          </p>
+        </div>
+      </div>
+      <div class="player-section" id="dona-nobis-pacem">
+        <div class="player-main">
+          <div class="audio-wrapper play-btn-loading">
+            <div class="play-button"></div>
+            <div class="pause-button"></div>
+            <div class="loader"></div>
+            <audio>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Dona_nobis_pacem.wav" type="audio/wav" preload="metadata"/>
+              <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/Dona_nobis_pacem.mp3" type="audio/mpeg" preload="metadata"/>
+            </audio>
+          </div>
+          <div class="info-section">
+            <div class="info-name">
+              <p id="info-title">Dona nobis pacem</p>
+              <p id="info-author">Johanna Kivimägi</p>
+            </div>
+            <div class="info-time"></div>
+          </div>
+          <div class="distance-indicator"></div>
+          <div class="buffer-indicator"></div>
+        </div>
+        <div class="player-text">
+          <p>
+            Dona nobis pacem (2014) is written for female choir Kammerhääled (conductor Ingrid Roose) 
+            for their concert tour in summer 2014 in Estonia. This a concert recording from the same tour.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="multimedia-main tab-hidden" onclick="">
+      <div class="v-player-section" id="two">
+        <div class="v-player-main">
+          <video id="vid17" volume="0.5" preload="metadata" poster="img/reflection_placeholder.jpg">
+            <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/reflection.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;"/>
+            <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/reflection.webm" type="video/webm"/>
+            <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/reflection.mp4" type="video/mp4"/>
+          </video>
+          <div class="v-controls">
+            <div class="v-buttons v-buttons-paused">
+              <div class="v-button-container">
+                <div class="v-play-button"></div>
+                <div class="v-pause-button"></div>
+              </div>
+            </div>
+            <div class="v-info-section">
+              <div class="v-info-name">
+                <p id="v-info-title">Reflection</p>
+              </div>
+              <div class="v-info-time"></div>
+            </div>
+            <div class="v-fullscreen-btn">
+              <div class="v-fullscreen-icon"></div>
+            </div>
+            <div class="v-distance-indicator"></div>
+            <div class="v-distance-full"></div>
+          </div>
+        </div>
+        <div class="v-text">
+          <p>
+             Reflection (2017) for flute, electronics and video. 
+            Video by Valentin Siltsenko. Original sound 5.1.
+          </p>
+        </div>
+      </div>
+      <div class="v-player-section" id="one">
+        <div class="v-player-main">
+          <video id="vid17" volume="0.5" preload="metadata" poster="img/wandering_placeholder.jpg">
+            <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/uus_video.webm" type="video/webm"/>
+            <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/uus_video.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;"/>
+            <source src="https://s3.eu-west-2.amazonaws.com/j-bucket0092/j/uus_video.mp4" type="video/mp4"/>
+          </video>
+          <div class="v-controls">
+            <div class="v-buttons v-buttons-paused">
+              <div class="v-button-container">
+                <div class="v-play-button"></div>
+                <div class="v-pause-button"></div>
+              </div>
+            </div>
+            <div class="v-info-section">
+              <div class="v-info-name">
+                <p id="v-info-title">Wandering Stars</p>
+              </div>
+              <div class="v-info-time"></div>
+            </div>
+            <div class="v-fullscreen-btn">
+              <div class="v-fullscreen-icon"></div>
+            </div>
+            <div class="v-distance-indicator"></div>
+            <div class="v-distance-full"></div>
+          </div>
+        </div>
+        <div class="v-text">
+          <p>
+             Wandering Stars (2016) by Lola Drubigny, sound by Johanna Kivimägi. 
+            1h 4min, colour installation
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="performances-main tab-hidden" onclick="">
+      <div class="performances-heading">
+        <p>Upcoming events</p>
+      </div>
+      <div class="performances-heading past">
+        <p>Past events</p>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>30/11/19</p>
+          </div>
+          <div class="events-mid">
+            <p>TaHe</p>
+          </div>
+          <div class="events-right">
+            <p>Tartu</p>
+            <p>Tubina saal</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Langedes"</p>
+          <p>Maria Jönsson (flute)</p>
+          <p>Jaanus Siniväli (double bass)</p>
+          <p>Johanna Kivimägi (electronics)</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>21/10/19</p>
+            <p>19:00</p>
+          </div>
+          <div class="events-mid">
+            <p>HELI ja KEEL</p>
+          </div>
+          <div class="events-right">
+            <p>Eesti Raadio 1. stuudio</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Hõbõhõnõ"</p>
+          <p>For electronics</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>31/05/19</p>
+            <p>19:00</p>
+          </div>
+          <div class="events-mid">
+            <p>Öös on hääled</p>
+          </div>
+          <div class="events-right">
+            <p>Issanda Muutmise kirik</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Falling Indefinitely" for vocal ensemble and electronics (3 parts)</p>
+          <p>Vocal ensemble "Sinilind"</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>27/04/19</p>
+            <p>19:00</p>
+          </div>
+          <div class="events-mid">
+            <p>Festival Commute</p>
+            <p>"Jõuda kohale. Olla rahus."</p>
+          </div>
+          <div class="events-right">
+            <p>Eesti Muusika- ja Teatriakadeemia</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Invisible light"</p>
+          <p>Ensemble Synaesthesis (Lithuania)</p>
+          <p>Video by Valentin Siltsenko</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>08/03/19</p>
+            <p>19:00</p>
+          </div>
+          <div class="events-mid">
+            <p>"Clay and what follows: Part I"</p>
+          </div>
+          <div class="events-right">
+            <p>Studio 45 / Künstlerhaus Wendenstrasse</p>
+            <p>Hamburg</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>Video by Lola Drubigny</p>
+          <p>Curator: Carolin Jüngst</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>21/10/18</p>
+            <p>21:00</p>
+          </div>
+          <div class="events-mid">
+            <p>Treffpunkt #3</p>
+          </div>
+          <div class="events-right">
+            <p>Heliose kino</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Radiance"</p>
+          <p>For electronics</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>06/09/18</p>
+          </div>
+          <div class="events-mid"><a href="https://gaudeamus.nl/en/" target="_blank">Gaudeamus Muziekweek 2018</a></div>
+          <div class="events-right">
+            <p>Tivolivredenburg</p>
+            <p>Utrecht</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Becoming The Flow"</p>
+          <p>Germanie Sijstermans (bass clarinet)</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>29/08/18</p>
+          </div>
+          <div class="events-mid"><a href="https://www.cultura-nova.nl/en/voorstellingen/germaine-sijstermans-muziek-en-installatie-op-het-maanplein/" target="_blank">Cultura Nova</a></div>
+          <div class="events-right">
+            <p>Maankvartier</p>
+            <p>Netherlands</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Becoming The Flow"</p>
+          <p>Germanie Sijstermans (bass clarinet)</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>19/07/18</p>
+          </div>
+          <div class="events-mid"><a href="http://www.nycemf.org/2018-festival/" target="_blank">New York City Electroacoustic Music Festival 2018</a></div>
+          <div class="events-right">
+            <p>Abrons Arts Centre</p>
+            <p>New York</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Reflection"</p>
+          <p>Gianni Trovalusci (flute)</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>09/05/18</p>
+          </div>
+          <div class="events-mid"><a href="http://www.ema.edu.ee/event/uudisloomingu-kontsert-2/" target="_blank">Uudisloomingu kontsert</a></div>
+          <div class="events-right">
+            <p>Metodisti kirik</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Falling into place"</p>
+          <p>For electronics</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>08/05/18</p>
+          </div>
+          <div class="events-mid">
+            <p>Springtime Study Concerts</p>
+          </div>
+          <div class="events-right">
+            <p>Università degli Studi di Roma Tor Vergata</p>
+            <p>Rome</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Reflection"</p>
+          <p>Gianni Trovalusci (flute)</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>13/04/18</p>
+          </div>
+          <div class="events-mid"><a href="http://www.eestimuusikapaevad.ee/kava/elusate-helide-maja-2/" target="_blank">Eesti Muusika Päevad</a>
+            <p> <a href="http://www.eestimuusikapaevad.ee/kava/elusate-helide-maja-2/" target="_blank">Elusate Helide Maja</a></p>
+          </div>
+          <div class="events-right">
+            <p>EMTA kammersaal</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Muutuda, et jääda samaks"</p>
+          <p>Ensemble L'Arsenale</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>07/12/17 - 10/12/17</p>
+          </div>
+          <div class="events-mid">
+            <p>inSonic2017</p>
+          </div>
+          <div class="events-right">
+            <p>ZKM</p>
+            <p>Karlsruhe</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Reflection" </p>
+          <p>5.1 sound installation</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>01/06/17</p>
+          </div>
+          <div class="events-mid">
+            <p>Noorte Heliloojate Labor</p>
+            <p>Treffpunkt 2</p>
+          </div>
+          <div class="events-right">
+            <p>Kohvik 7C</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Muundumine"</p>
+          <p>Elle-Riin Volmer (piano)</p>
+          <p>Johanna Kivimägi (electronics)</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>11/04/17</p>
+          </div>
+          <div class="events-mid">
+            <p>Eesti Muusika Päevad</p>
+            <p>Vältimatult Valgusesse</p>
+          </div>
+          <div class="events-right">
+            <p>Kino Sõprus</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Reflection"</p>
+          <p>Gianni Trovalusci (flute)</p>
+        </div>
+      </div>
+      <div class="events-body">
+        <div class="events-body-main">
+          <div class="events-left">
+            <p>07/04/17</p>
+          </div>
+          <div class="events-mid">
+            <p>Eesti Muusika Päevad</p>
+            <p>Elusate Helide maja</p>
+          </div>
+          <div class="events-right">
+            <p>EMTA kammersaal</p>
+            <p>Tallinn</p>
+          </div>
+        </div>
+        <div class="events-body-extra">
+          <p>"Sära"</p>
+          <p>EMTA Sinfonietta</p>
+          <p>Conductor Toomas Vavilov</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-main tab-hidden" onclick="">
+      <div class="contact-wrapper">
+        <div class="contact-text">
+          <p>Johanna Kivimägi</p>
+          <p>johanna.kivimagi@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="waveform-area"></div>
+      <div class="text-area">
+        <p>Currently playing</p>
+        <p id="footer-title">Cinematic Orchesta - Hey Now</p>
+      </div>
+      <div class="play-btn-area">
+        <div class="footer-play-btn"></div>
+        <div class="footer-pause-btn"></div>
+      </div>
+    </div>
+    <script src="script/jquery-3.2.1.min.js"></script>
+    <script src="script/script-min.js"></script>
+  </body>
+</html>
